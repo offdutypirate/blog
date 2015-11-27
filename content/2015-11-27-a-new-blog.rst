@@ -1,0 +1,15 @@
+A new blog
+####################
+
+:date: 2015-11-27 07:00
+:modified: 2015-11-27 07:00
+:category: misc
+:slug: a-new-blog
+:authors: Jon Moore
+:summary: Starting a new blog
+
+As you can see, I'm decided to make some changes to the blog.  The biggest change is I'm now using Pelican instead of Octopress.  Still using a static site however python is doing the hardwork instead of ruby.  I have been using more Python at work recently and this is the reason for the change.
+
+I have not imported any of the older posts from either blog at this time.  I plan to do this sometime in the future, but since I've also decided to give reStructredText a spin instead of Markdown I'm not sure when or if that will happen.
+
+As always, this is meant to be a dumping group for my personal notes.

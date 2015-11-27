@@ -7,7 +7,6 @@ Delete iptables rule
 :category: short tips
 :slug: delete-iptables-rule
 :authors: Jon Moore
-:summary: Short command to delete a single iptables rule
 
 Here are a few different ways to delete iptables rules.
 

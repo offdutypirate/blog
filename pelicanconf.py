@@ -24,7 +24,7 @@ LINKS = ()
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/offdutypirate'),
-        ('Twitter', 'https://twitter.com/offdutypirate'),)
+         ('Twitter', 'https://twitter.com/offdutypirate'),)
 
 DEFAULT_PAGINATION = 5
 

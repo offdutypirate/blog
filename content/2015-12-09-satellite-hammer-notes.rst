@@ -1,4 +1,4 @@
-Satellite Hammer cli notes
+Satellite hammer cli notes
 ##########################
 
 :date: 2015-12-09 08:00
@@ -7,12 +7,10 @@ Satellite Hammer cli notes
 :category: short tips
 :slug: satellite-hammer-notes
 :authors: Jon Moore
-:status: draft
+:status: published
 
 Here is a collection of my notes on using hammer cli with Red Hat Satellite.  Most of these things probably work with Katello also, but all of my testing is with Satellite.
 
-Adding Products, Repositories and GPG keys
-==========================================
 
 Add new Product
 ---------------
@@ -25,11 +23,4 @@ Products are a group of repositories.  Content Hosts can subscribe to a product 
 	Product created
 	$
 
-Add GPG key
------------
-::
-
-	$ hammer gpg create --key KEY --name "GPG KEY" --organization "Default Organization"
-
-Add Repository
---------------
+Content View

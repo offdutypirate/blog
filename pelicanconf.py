@@ -23,12 +23,12 @@ AUTHOR_FEED_RSS = None
 LINKS = ()
 
 # Social widget
-SOCIAL = (('Github', 'https://github.com/offdutypirate'),
-         ('Twitter', 'https://twitter.com/offdutypirate'),)
+#SOCIAL = (('Github', 'https://github.com/offdutypirate'),
+#         ('Twitter', 'https://twitter.com/offdutypirate'),)
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images']
+THEME='./theme/'

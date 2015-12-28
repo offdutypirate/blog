@@ -4,6 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jon Moore'
 SITENAME = u'offduty pirate'
+SITETITLE = u'offdutypirate'
+SITESUBTITLE = u'One guys personal blog'
+SITEDESCRIPTION = u'%s\'s Personal Blog' % AUTHOR
 SITEURL = ''
 
 PATH = 'content'
@@ -35,7 +38,13 @@ THEME='./theme/'
 
 # Theme Options
 SITELOGO = 'http://s.gravatar.com/avatar/1017f383d5407116b6b468d01aee41ed'
-SITETITLE = 'offduty pirate'
 SITEDESCRIPTION = 'My Blog'
 MAIN_MENU = False
 MENUITEMS = (('Archives', '/archives.html'),)
+CC_LICENSE = {
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa'
+}
+
+USE_LESS = True

@@ -20,7 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = ()
+LINKS = (('Archives', '/archives.html'),)
 
 # Social widget
 #SOCIAL = (('Github', 'https://github.com/offdutypirate'),
@@ -32,3 +32,10 @@ DEFAULT_PAGINATION = 5
 #RELATIVE_URLS = True
 STATIC_PATHS = ['images']
 THEME='./theme/'
+
+# Theme Options
+SITELOGO = 'http://s.gravatar.com/avatar/1017f383d5407116b6b468d01aee41ed'
+SITETITLE = 'offduty pirate'
+SITEDESCRIPTION = 'My Blog'
+MAIN_MENU = False
+MENUITEMS = (('Archives', '/archives.html'),)
